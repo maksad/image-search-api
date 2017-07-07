@@ -1,0 +1,35 @@
+{
+  "name": "image-search-api",
+  "version": "1.0.0",
+  "description": "A simple restful api that searches images from Google ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/maksad/image-search-api.git"
+  },
+  "keywords": [
+    "image",
+    "search",
+    "api",
+    "simple",
+    "rest"
+  ],
+  "author": "Maksad Donayorov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maksad/image-search-api/issues"
+  },
+  "homepage": "https://github.com/maksad/image-search-api#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "pug": "^2.0.0-rc.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
